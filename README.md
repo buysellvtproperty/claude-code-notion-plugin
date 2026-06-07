@@ -84,6 +84,18 @@ The Notion MCP server supports **OAuth**!
 
 ---
 
+## 🗂️ Google Workspace CLI (optional)
+
+Want Claude to also work across **Gmail, Calendar, Drive, Docs, Sheets, Chat, and Admin**
+through a single connection? See **[docs/google-workspace-cli-setup.md](docs/google-workspace-cli-setup.md)**
+for setting up Google's official `gws` CLI and its built-in MCP server. Quick start:
+
+```bash
+bash scripts/setup-gws.sh
+```
+
+---
+
 ## 🙌 Credits
 
 - **Skills** by the Notion

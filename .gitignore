@@ -1,0 +1,11 @@
+# Google Workspace CLI (gws) credentials — NEVER commit these
+credentials.json
+client_secret.json
+*.sa.json
+service-account*.json
+gws-credentials*.json
+.env
+.env.*
+
+# gws config dir if ever copied into the repo
+.config/gws/

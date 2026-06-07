@@ -3,6 +3,11 @@
     "notion": {
       "type": "http",
       "url": "https://mcp.notion.com/mcp"
+    },
+    "google-workspace": {
+      "type": "stdio",
+      "command": "gws",
+      "args": ["mcp", "-s", "gmail,calendar,drive,docs,sheets,chat,admin"]
     }
   }
 }
